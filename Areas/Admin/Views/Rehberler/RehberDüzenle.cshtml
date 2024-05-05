@@ -1,0 +1,28 @@
+﻿@model Rehber
+@{
+    ViewData["Title"] = "RehberDüzenle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rehber Düzenle</h1>
+
+<br />
+<form asp-action="RehberDüzenle" asp-controller="Rehberler" method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label>Ad Soyad</label>
+        <input type="text" class="form-control" asp-for="Adı" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Resim</label>
+        <input type="file" class="form-control" asp-for="Resim" />
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Acıklama</label>
+        <textarea rows="5" cols="30" type="text" class="form-control" asp-for="Acıklama"></textarea>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Ekle</button>
+</form>

@@ -1,0 +1,33 @@
+﻿@model GeziRehberim.Model.SifremiUnuttumViewModel
+@{
+    Layout = null;
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+<br />
+<!-- Şifre sıfırlama formu -->
+<div class="container">
+<br />
+<br />
+    <h2>Şifrenizi mi unuttunuz?</h2>
+
+    <form asp-controller="Sifreİslemleri" asp-action="SifremiUnuttum" method="post">
+        
+            <label>E-posta Adresi:</label>
+            <!-- Kullanıcıdan e-posta adresini girmesini sağlayan metin giriş kutusu -->
+            <input class="form-control"  asp-for="Mail" class="form-control" />
+            <!-- E-posta geçerliliği için doğrulama hata mesajı -->
+            <span asp-validation-for="Mail" class="text-danger"></span>
+        
+        <!-- Formu göndermek için düğme -->
+        <br />
+        <button type="submit" class="btn btn-primary">Şifre Sıfırlama Bağlantısı Gönder</button>
+    </form>
+</div>
+

@@ -1,0 +1,26 @@
+﻿@model Duyurular
+@{
+    ViewData["Title"] = "DuyuruGuncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Duyuru Güncelleme</h1>
+
+<br />
+<form method="post">
+    <div class="form-group">
+        <label>Duyuru başlığı</label>
+        <input type="text" class="form-control" asp-for="Baslık" />
+        <span asp-validation-for="Baslık" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label>İçerik</label>
+        @*  <input type="text" class="form-control" asp-for="İcerik" /> *@
+        <textarea type="text" class="form-control" asp-for="İcerik" rows="5"></textarea>
+        <span asp-validation-for="İcerik" class="text-danger"></span>
+    </div>
+    <br />
+    <br />
+    <button class="btn btn-outline-primary">Kaydet</button>
+</form>

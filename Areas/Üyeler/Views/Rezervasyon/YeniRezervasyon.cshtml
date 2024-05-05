@@ -1,0 +1,30 @@
+﻿@model Rezervasyon
+@{
+    ViewData["Title"] = "YeniRezervasyon";
+    Layout = "~/Views/Shared/_ÜyeLayout.cshtml";
+}
+
+<h1>Yeni Rezervasyon Sayfası</h1>
+<br />
+
+<form method="post" asp-action="YeniRezervasyon" asp-controller="Rezervasyon">
+<div class="form-group">
+    <label>Lokasyon</label>
+    <select asp-for="GidilecekYerlerID" asp-items="ViewBag.v" class="form-control"></select>
+</div>
+    <div class="form-group">
+        <label>Kişi sayısı</label>
+        <input type="text" asp-for="KişiSayısı"  class="form-control"/>
+    </div>
+   
+    <div class="form-group">
+        <label>Tarih</label>
+        <input type="date" asp-for="RezervasyonTarihi" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label>Eklemek istedikleriniz</label>
+        <textarea rows="6" asp-for="Açıklama" class="form-control"></textarea>
+    </div>
+    <button class="btn btn-primary">Gönder</button>
+</form>
+ 

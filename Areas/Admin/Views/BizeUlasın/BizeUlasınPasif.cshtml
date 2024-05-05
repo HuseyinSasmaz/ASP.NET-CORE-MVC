@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "BizeUlasınPasif";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 0;
+}
+
+
+<h1>Bize ulaşın mesajları (Pasif)</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>İsim</th>
+        <th>Mail Adresi</th>
+        <th>Başlık</th>
+        <th>Mesaj Tarihi</th>
+      
+        <th>Mesajı Aç</th>
+       
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        sayı++;
+      
+            <tr>
+                <td>@sayı</td>
+                <td>@item.İsim</td>
+                <td>@item.MailAdresi</td>
+                <td>@item.Baslık</td>
+                <td>@item.MesajTarihi.ToString("dd-MMM-yyyy")</td>
+               
+                <td><a class="btn btn-outline-dark" href="#">Mesajı Aç</a></td>
+
+
+            </tr>
+        
+        
+  }
+</table>

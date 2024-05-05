@@ -1,0 +1,49 @@
+﻿@model GeziRehberim.Model.YeniSifreViewModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Yeni şifre olştur";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+<link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.rtl.css" rel="stylesheet" />
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <p><strong>Hata!</strong> Şifre sıfırlama işlemi sırasında bir hata oluştu:</p>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <br />
+     <form method="post" asp-action="YeniSifreGir" >
+        @* <input type="hidden" asp-for="Token" />
+        <input type="hidden" asp-for="UserId" /> *@
+        <div class="form-group">
+            <label>Yeni Şifre</label>
+            <input type="password" class="form-control" asp-for="YeniSifre" />
+            <span asp-validation-for="YeniSifre" class="text-danger"></span>
+        </div>
+        <br />
+        <div class="form-group">
+            <label>Şifre Tekrarı</label>
+            <input type="password" class="form-control" asp-for="YeniSifreTekrarı" />
+            <span asp-validation-for="YeniSifreTekrarı" class="text-danger"></span>
+        </div>
+        <br />
+       <button type="submit" class="btn btn-primary">Şifreyi Değiştir</button>
+     </form>
+
+ </div>

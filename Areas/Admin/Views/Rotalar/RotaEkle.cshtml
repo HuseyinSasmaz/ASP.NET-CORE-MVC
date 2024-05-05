@@ -1,0 +1,61 @@
+﻿@model GidilecekYerler
+@{
+    ViewData["Title"] = "RotaEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rota Ekle</h1>
+
+<form asp-action="RotaEkle" asp-controller="Rotalar" method="post">
+    <div class="form-group">
+        <label>Şehir</label>
+        <input type="text" class="form-control" asp-for="Şehir" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Gün Gece</label>
+        <input type="text" class="form-control" asp-for="GündüzGece" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Fiyat</label>
+        <input type="text" class="form-control" asp-for="Fiyat" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Gün Gece</label>
+        <input type="text" class="form-control" asp-for="GündüzGece" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Ana Görsel</label>
+        <input type="text" class="form-control" asp-for="Resim" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Kapasite</label>
+        <input type="text" class="form-control" asp-for="Kapasite" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Kapak Görseli</label>
+        <input type="text" class="form-control" asp-for="KapakResmi" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Resim</label>
+        <input type="text" class="form-control" asp-for="Resim1" />
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Detay 1</label>
+        <textarea rows="5" cols="30" type="text" class="form-control" asp-for="Detay2" ></textarea> 
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Detay 2</label>
+        <textarea rows="5" cols="30" type="text" class="form-control" asp-for="Detay2" ></textarea>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Oluştur</button>
+</form>

@@ -1,0 +1,38 @@
+﻿@model List<Duyurular>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 0;
+}
+
+<h1>Duyurular Listesi</h1>
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Baslık</th>
+        <th>İcerik</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detay</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        sayı++;
+
+        <tr>
+            <td>@sayı</td>
+            <td>@item.Baslık</td>
+            <td>@item.İcerik</td>
+            <td><a href="/Admin/Duyurular/DuyuruSil/@item.DuyuruID/" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Duyurular/DuyuruGuncelle/@item.DuyuruID/" class="btn btn-outline-success">Güncelle</a></td>
+            <td><a href="#" class="btn btn-outline-info">Detaylar</a></td>
+           
+        </tr>
+
+
+    }
+</table>
+</br>
+<a href="/Admin/Duyurular/DuyuruEkle/" class="btn btn-outline-info">Yeni duyuru ekle</a>

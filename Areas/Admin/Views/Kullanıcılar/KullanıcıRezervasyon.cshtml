@@ -1,0 +1,38 @@
+﻿@model List<Rezervasyon>
+@{
+    ViewData["Title"] = "KullanıcıRezervasyon";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 0;
+}
+
+<h1>Kullanıcının Geçmiş Rezervasyonları</h1>
+
+<br />
+<table class="table table-bordered"> 
+    <tr>
+        <th>#</th>
+        <th>Misafir Ad Soyad</th>
+        <th>Rota</th>
+        <th>Kişi Sayısı</th>
+        <th>Tarih</th>
+        <th>Durum</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+       
+   
+        { sayı += 1; }
+
+        <tr>
+            <td>@sayı</td>
+            <td>@item.UygulamaKullanıcısıId</td>   
+            <td>@item.GidilecekYerler.Şehir </td>
+            <td>@item.KişiSayısı</td>
+            <td>@(((DateTime)item.RezervasyonTarihi).ToString("dd-MMMM-yyyy"))</td>
+            <td>@item.Statu</td>
+           
+            <td><a href="#" class="btn btn-outline-success">Düzenle</a></td>
+        </tr>
+    }      
+</table>

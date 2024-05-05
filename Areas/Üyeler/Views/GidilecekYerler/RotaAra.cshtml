@@ -1,0 +1,46 @@
+﻿@using GeziRehberim.Model
+@model List<GidilecekYerler>
+@{
+    ViewData["Title"] = "RotaAra";
+    Layout = "~/Views/Shared/_ÜyeLayout.cshtml";
+}
+
+<h1>Aktif tur rotalarımız</h1>
+<br />
+<form asp-action="RotaAra" asp-area="Üyeler" method="get" class="row g-3">
+
+    <div class="col-auto">
+        <label for="inputPassword2" class="visually-hidden">Aranacak Şehri Giriniz</label>
+        <input type="text" class="form-control" name="rotaAra" requared="" placeholder="Ara">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Bul</button>
+    </div>
+</form>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Şehir</th>
+        <th>Süre</th>
+        <th>Kapesite</th>
+        <th>Fiyat</th>
+        <th>Detaylar</th>
+    </tr>
+    @if(Model!=null) 
+    {
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.GidilecekYerlerID</td>
+                <td>@item.Şehir</td>
+                <td>@item.GündüzGece</td>
+                <td>@item.Kapasite</td>
+                <td>@item.Fiyat</td>
+                <td><a href="#" class="btn btn-success">Detaylar</a></td>
+            </tr>
+
+        }
+    }         
+   
+</table>

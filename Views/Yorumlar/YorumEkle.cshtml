@@ -1,0 +1,23 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div class="leave-comment-form mt-5" id="reply">
+    <h4 class="side-title mb-2">Bir yorum yapın</h4>
+    <p class="mb-4">
+        İşaretli alanları doldurmanız gerekmektedir *  Kullanıcı=  @ViewBag.dgr
+    </p>
+    <form  asp-action="YorumEkle" asp-controller="Yorumlar"  method="post">
+        <input class="form-control" type="hidden" name="GidilecekYerlerID" value="@ViewBag.id">
+        <input class="form-control" type="hidden" name="UygulamaKullanıcısıID" value=" @ViewBag.dgr">
+        <div class="form-group">
+            <textarea name="Yorumİçerik" class="form-control" placeholder="Yorumunuz *" required="" spellcheck="false"></textarea>
+        </div>
+      
+        <div class="submit text-right">
+            <button class="btn btn-style btn-primary">Yorumu Gönder </button>
+        </div>
+    </form>
+</div>
+
+
+
+

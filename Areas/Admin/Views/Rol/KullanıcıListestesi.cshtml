@@ -1,0 +1,28 @@
+﻿@model List<UygulamaKullanıcısı>
+@{
+    ViewData["Title"] = "KullanıcıListestesi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayac = 0;
+}
+
+<h1>Kullanıcı Listestesi</h1>
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Kullanıcı Adı</th>
+        <th>Rol Ata</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        sayac++;
+        <tr>
+            <td>@sayac</td>
+            <td>@item.UserName</td>
+            <td><a class="btn btn-outline-info" href="/Admin/Rol/RolAta/@item.Id/">Rol Ata</a></td>
+        </tr>
+    }
+    
+ </table>

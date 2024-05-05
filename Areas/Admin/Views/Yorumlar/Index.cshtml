@@ -1,0 +1,27 @@
+﻿@model List<Yorumlar>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Yorumlar Listesi</h1>
+<br />
+<table class="table table-bordered"> 
+    <tr>
+        <th>#</th>
+        <th>Kullanıcı</th>
+        <th>Rota</th>
+        <th>Tarih</th>
+        <th>Sil</th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.YorumID</td>
+            <td>@item.KullanıcıYorum</td>
+            <td>@item.GidilecekYerler.Şehir</td>
+            <td>@(((DateTime)item.YorumTarihi).ToString("dd-MMMM-yyyy"))</td>
+            <td><a href="/Admin/Yorumlar/YorumSil/@item.YorumID" class="btn btn-outline-danger">Sil</a></td>
+        </tr>
+    }      
+</table>

@@ -1,0 +1,38 @@
+﻿@model List<GidilecekYerler>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rotalar</h1>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Şehir</th>
+        <th>Süre</th>
+        <th>Fiyat</th>
+        <th>Kapasite</th>
+        <th>Sitede gör</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.GidilecekYerlerID</td>
+            <td>@item.Şehir</td>
+            <td>@item.GündüzGece</td>
+            <td>@item.Fiyat</td>
+            <td>@item.Kapasite</td>
+            <td><a href="/Rotalar/RotalarDetay/@item.GidilecekYerlerID" class="btn btn-outline-info">Sitede gör</a></td>
+            <td><a href="/Admin/Rotalar/RotaSil/@item.GidilecekYerlerID" class="btn btn-outline-danger">Sil</a></td>
+            <td><a href="/Admin/Rotalar/RotaGüncelle/@item.GidilecekYerlerID" class="btn btn-outline-success">Güncelle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Rotalar/RotaEkle" class="btn btn-outline-primary">Yeni Rota Oluştur</a>
+<br />
+<br />
+<a asp-controller="Excel" asp-action="ExcelDosyaOlustur" class="btn btn-outline-warning">Excel Oluştur</a>

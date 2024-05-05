@@ -1,0 +1,35 @@
+﻿@model KullanıcıDüzenleViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_ÜyeLayout.cshtml";
+}
+
+<h1>Kullanıcı profil sayafası</h1>
+
+<form asp-action="Index" asp-controller="Profil" method="post" enctype="multipart/form-data">
+    <label >Adınız</label>
+    <input type="text" class="form form-control" asp-for="adı" />
+    <br />
+    <label >Soyadınız</label>
+    <input type="text" class="form form-control" asp-for="soyadı" />
+    <br />
+    <label >Mail adersiniz</label>
+    <input type="text" class="form form-control" asp-for="email" />
+    <br />
+    <label >Şifre</label>
+    <input type="text" class="form form-control" asp-for="şifre" />
+    <br />
+    <label >Şifre tekrerı</label>
+    <input type="text" class="form form-control" asp-for="şifretekrarı" />
+    <br />
+    <label >Telefon</label>
+    <input type="text" class="form form-control" asp-for="telefon" />
+    <br />
+    <div class="form-group">
+        <label>Resim seçin</label>
+        <input type="file" asp-for="Resim" />
+    </div>
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+</form>
+

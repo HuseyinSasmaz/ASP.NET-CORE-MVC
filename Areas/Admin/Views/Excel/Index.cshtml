@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Raporlar Sayfası</h1>
+
+<form asp-action="ExcelDosyaOlustur" method="post">
+    <button type="submit" class="btn btn-outline-success">Excel İndir</button>
+</form>
+

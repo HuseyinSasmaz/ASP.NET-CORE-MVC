@@ -1,0 +1,54 @@
+﻿@using GeziRehberim.Model
+@model List<GidilecekYerler>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_KullanıcıLayout.cshtml";
+}
+
+<link href="/Traversal-Liberty/fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="/Traversal-Liberty/fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
+
+<link rel="stylesheet" href="/Traversal-Liberty/assets/css/style-liberty.css">
+
+    <section class="w3l-about-breadcrumb text-left">
+        <div class="breadcrumb-bg breadcrumb-bg-about py-sm-5 py-4">
+            <div class="container">
+                <h2 class="title">Rotalar </h2>
+                <ul class="breadcrumbs-custom-path mt-2">
+                    <li><a href="/Default/Index/">Anasayfa</a></li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> Rotalar </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+   
+    <section class="grids-1 py-5">
+        <div class="grids py-lg-5 py-md-4">
+            <div class="container">
+                <h3 class="hny-title mb-5">Tur Rotalarımız</h3>
+                
+                <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-lg-4 col-md-4 col-6 mt-lg-5 mt-4">
+                   
+                        <div class="column">
+                            <a href="/Rotalar/RotalarDetay/@item.GidilecekYerlerID/"><img src=@item.Resim alt="" class="img-fluid"></a>
+                            <div class="info">
+                                <h4><a href="blog-single.html">@item.Şehir</a></h4>
+                                <p>@item.GündüzGece </p>
+                                <div class="dst-btm">
+                                    <h6 class="">Başlayan fiyatlarla </h6>
+                                    <span>@item.Fiyat $</span>
+                                </div>
+                            </div>
+                        </div>
+                    
+                    </div>
+                }
+                </div>   
+            </div>
+        </div>
+    </section>

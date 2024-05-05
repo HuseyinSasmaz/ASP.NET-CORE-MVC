@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_KullanıcıLayout.cshtml";
+}
+
+@await Component.InvokeAsync("Slider_component")
+
+@await Component.InvokeAsync("PopülerYerler_component")
+
+@await Component.InvokeAsync("İstatistik_component")
+
+@await Component.InvokeAsync("Özellik_component")
+
+@await Component.InvokeAsync("AltÖzellik_component")
+
+@await Component.InvokeAsync("Referanslar_component")
+
+
+
+

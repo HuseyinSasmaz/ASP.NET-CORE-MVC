@@ -1,0 +1,24 @@
+﻿@model List<RolAtaViewModel>
+@{
+    ViewData["Title"] = "RolAta";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rol Ata</h1>
+<br />
+<form asp-controller="Rol" asp-action="RolAta" method="post">
+    @for (int i= 0;i < Model.Count;i++)
+    {
+        <div class="form-check">
+            <input type="hidden" asp-for="@Model[i].RolID" />
+            <input type="hidden" asp-for="@Model[i].RolAdı" />
+            <input type="checkbox" asp-for="@Model[i].Durum" class="form-check-input" />
+            <label class="form-check-label" for="@Model[i].Durum">@Model[i].RolAdı</label>
+        </div>
+   }
+         
+    <button type="submit" class="btn btn-outline-success">Kaydet</button>
+</form>
+<br />
+<br />
+<p>kullanıcı ID= @ViewBag.kullanıcıID</p>

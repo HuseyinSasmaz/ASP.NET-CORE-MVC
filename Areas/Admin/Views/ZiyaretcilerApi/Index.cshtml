@@ -1,0 +1,45 @@
+﻿@model List<GeziRehberim.Areas.Admin.Models.ZiyaretcilerViewModel>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 1;
+
+}
+
+<h1>Api Ziyaretçi Listesi</h1>
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Ad </th>
+        <th>Soyadı</th>
+        <th>Şehir</th>
+        <th>Ülke</th>
+        <th>Mail</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+
+    </tr>
+    @foreach (var item in Model)
+    {
+     @if(item!=null)
+     {
+          <tr>
+            <td>@sayı++</td>
+            <td>@item.Adı</td>
+            <td>@item.Soyadı</td>
+            <td>@item.Sehir</td>
+            <td>@item.Ülke</td>
+            <td>@item.Mail</td>
+            <td><a class="btn btn-outline-danger" href="#">Sil</a></td>     
+            <td><a class="btn btn-outline-success" href="#">Güncelle</a></td>
+           
+        </tr>
+     }
+      else
+      {
+          <p>Api den bilgiler alınamadı!....</p>
+      } 
+    }
+</table>

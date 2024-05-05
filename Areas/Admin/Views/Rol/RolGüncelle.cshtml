@@ -1,0 +1,18 @@
+﻿@model RolViewModel
+@{
+    ViewData["Title"] = "RolGüncelle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rol Güncelle</h1>
+
+<br />
+<form method="post">
+    <div class="form-group">
+        <input type="hidden" asp-for="RolID" />
+        <label>RolAdı</label>
+        <input type="text" class="form-control" asp-for="RolAdı" required="" />
+    </div>
+    <br />
+    <button class="btn btn-outline-success">Kaydet</button>
+</form>

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<ApiBookingHotelViewModel.Result>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 0;
+    double score;
+}
+
+<h1>Api Hotel Listesi</h1>
+<br />
+<table class="table table-striped">
+ <tr>
+     <th>#</th>
+     <th>Otel Adı</th>
+     <th>Otel Puanı</th>
+     <th>Otel Değerlendirmesi</th>
+     <th>Detaylar</th>
+ </tr>
+    @foreach(var item in Model)
+    {
+        {
+            score = double.Parse(item.review_score.ToString())/10;
+        }
+        sayı++;
+        <tr>
+            <td>@sayı</td>
+            <td>@item.hotel_name</td>
+            <td> @* @item.review_score *@ @score </td>
+            <td>@item.review_score_word</td>
+            <td><a class="btn btn-outline-dark  ">Detaylar</a></td>
+        </tr>
+    }
+</table>

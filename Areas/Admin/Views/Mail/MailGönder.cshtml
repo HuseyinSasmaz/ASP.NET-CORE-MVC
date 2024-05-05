@@ -1,0 +1,30 @@
+﻿@model Mailİstek
+@{
+    ViewData["Title"] = "MailGönder";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>MailGönder</h1>
+
+<form  method="post">
+    <div class="form-group">
+        <label>Alıcı e-mail adresi</label>
+        <input type="email" class="form-control" asp-for="AlanMail" />
+        <span asp-validation-for="AlanMail" class="text-danger"></span>
+    </div>
+    <br />
+    <div class="form-group">
+        <label>Başlık</label>
+        <input type="text" class="form-control" asp-for="Baslık" />
+        <span asp-validation-for="Baslık" class="text-danger"></span>
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label>Acıklama</label>
+        <textarea rows="5" cols="30" type="text" class="form-control" asp-for="İçerik"></textarea>
+        <span asp-validation-for="İçerik" class="text-danger"></span>
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Gönder</button>
+</form>

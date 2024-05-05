@@ -1,0 +1,17 @@
+﻿@model RolViewModel 
+@{
+    ViewData["Title"] = "RolEkle";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Rol Ekleme Sayfası</h1>
+<br />
+<form method="post">
+    <div class="form-group">
+        <label>RolAdı</label>
+        <input type="text" class="form-control" asp-for="RolAdı" required="" />
+    </div>
+    <br />
+    <button class="btn btn-outline-primary">Ekle</button>
+</form>
+

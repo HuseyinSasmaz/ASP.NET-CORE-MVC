@@ -1,0 +1,50 @@
+﻿@model List<Rehber>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int sayı = 0;
+}
+<style>
+    img{
+        border-radius:70%;
+    }
+</style>
+<h1>Rehberler Listesi</h1>
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Resim</th>
+        <th> Ad Soyad</th>
+        <th>Acıklama</th>
+        <th>Durum</th>
+        <th>Düzenle</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+
+        { sayı += 1; }
+
+        <tr>
+            <td>@sayı</td>
+            <td><img src="@item.Resim" width="70" height="70"></td>
+            <td>@item.Adı</td>
+            <td>@item.Acıklama </td>
+            @{
+                if (item.Durum == true)
+                {
+
+                    <td><a href="#" class="btn btn-outline-warning">Pasif Yap</a></td>
+                }
+                else
+                {
+                    <td><a href="#" class="btn btn-outline-primary">Aktif Yap</a></td>
+
+                }
+            }
+            <td><a href="/Admin/Rehberler/RehberDüzenle/@item.RehberID" class="btn btn-outline-success">Düzenle</a></td>
+        </tr>
+    }
+</table>
+<a href="/Admin/Rehberler/RehberEkle/" class="btn btn-outline-primary">Yeni Rehber Ekle</a>

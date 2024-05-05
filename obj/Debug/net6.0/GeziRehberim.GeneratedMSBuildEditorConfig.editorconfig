@@ -1,0 +1,395 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GeziRehberim
+build_property.RootNamespace = GeziRehberim
+build_property.ProjectDir = C:\Users\malta\Desktop\Asp.Net Core\GeziRehberim\GeziRehberim\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\malta\Desktop\Asp.Net Core\GeziRehberim\GeziRehberim
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/ApiBookingHotel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpQm9va2luZ0hvdGVsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/ApiBookingHotel/OtelSehirBilgisi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpQm9va2luZ0hvdGVsXE90ZWxTZWhpckJpbGdpc2kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/ApiExchange/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpRXhjaGFuZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/ApiMovie/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXBpTW92aWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/BizeUlasın/BizeUlasınAktif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQml6ZVVsYXPEsW5cQml6ZVVsYXPEsW5Ba3RpZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/BizeUlasın/BizeUlasınPasif.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQml6ZVVsYXPEsW5cQml6ZVVsYXPEsW5QYXNpZi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFzaGJvYXJkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Duyurular/DuyuruEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHV5dXJ1bGFyXER1eXVydUVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Duyurular/DuyuruGuncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHV5dXJ1bGFyXER1eXVydUd1bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Duyurular/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRHV5dXJ1bGFyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Excel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRXhjZWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Kullanıcılar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuxLFjxLFsYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Kullanıcılar/KullanıcıDüzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuxLFjxLFsYXJcS3VsbGFuxLFjxLFEw7x6ZW5sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Kullanıcılar/KullanıcıRezervasyon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuxLFjxLFsYXJcS3VsbGFuxLFjxLFSZXplcnZhc3lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Kullanıcılar/KullanıcıYorum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcS3VsbGFuxLFjxLFsYXJcS3VsbGFuxLFjxLFZb3J1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Mail/MailGönder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTWFpbFxNYWlsR8O2bmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rehberler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVoYmVybGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rehberler/RehberDüzenle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVoYmVybGVyXFJlaGJlckTDvHplbmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rehberler/RehberEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUmVoYmVybGVyXFJlaGJlckVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rol/KullanıcıListestesi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sXEt1bGxhbsSxY8SxTGlzdGVzdGVzaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rol/RolAta.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sXFJvbEF0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rol/RolEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sXFJvbEVrbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rol/RolGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm9sXFJvbEfDvG5jZWxsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rotalar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm90YWxhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rotalar/RotaEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm90YWxhclxSb3RhRWtsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Rotalar/RotaGüncelle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUm90YWxhclxSb3RhR8O8bmNlbGxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/Yorumlar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWW9ydW1sYXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/ZiyaretcilerApi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcWml5YXJldGNpbGVyQXBpXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Admin/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Dashboard/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xEYXNoYm9hcmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/GidilecekYerler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xHaWRpbGVjZWtZZXJsZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/GidilecekYerler/RotaAra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xHaWRpbGVjZWtZZXJsZXJcUm90YUFyYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Profil/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xQcm9maWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Rezervasyon/AktifRezervasyonlarım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xSZXplcnZhc3lvblxBa3RpZlJlemVydmFzeW9ubGFyxLFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Rezervasyon/GeçmişRezervasyonlarım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xSZXplcnZhc3lvblxHZcOnbWnFn1JlemVydmFzeW9ubGFyxLFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Rezervasyon/OnayBekleyenRezervasyonlarım.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xSZXplcnZhc3lvblxPbmF5QmVrbGV5ZW5SZXplcnZhc3lvbmxhcsSxbS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/Rezervasyon/YeniRezervasyon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xSZXplcnZhc3lvblxZZW5pUmV6ZXJ2YXN5b24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Areas/Üyeler/Views/ÜyeYorum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcw5x5ZWxlclxWaWV3c1zDnHllWW9ydW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialAppBrandDemo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEFwcEJyYW5kRGVtby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialFooter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEZvb3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialHeader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbEhlYWRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialNavBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbE5hdkJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNjcmlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Admin/PartialSideBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGFydGlhbFNpZGVCYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Giriş/GirişYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyacWfXEdpcmnFn1lhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Giriş/KayıtOl.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyacWfXEthecSxdE9sLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/HataSayfası/Hata404.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF0YVNheWZhc8SxXEhhdGE0MDQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/LayoutPartial/FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxGb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/LayoutPartial/HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxIZWFkZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/LayoutPartial/NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/LayoutPartial/ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0UGFydGlhbFxTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Rehber/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVoYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Rotalar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YWxhclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Rotalar/RotalarDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm90YWxhclxSb3RhbGFyRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/AltÖzellik_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWx0w5Z6ZWxsaWtfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Chart1İstatistik/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2hhcnQxxLBzdGF0aXN0aWtcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Chart2İstatistik/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ2hhcnQyxLBzdGF0aXN0aWtcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/DashboardBanner/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGFzaGJvYXJkQmFubmVyXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Destinationİstatistik2/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVzdGluYXRpb27EsHN0YXRpc3RpazJcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Destinationİstatistik/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGVzdGluYXRpb27EsHN0YXRpc3Rpa1xEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/GuideList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcR3VpZGVMaXN0XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/PlatformAyarları_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUGxhdGZvcm1BeWFybGFyxLFfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/PopülerYerler_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUG9ww7xsZXJZZXJsZXJfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/ProfilBilgisi_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZmlsQmlsZ2lzaV9jb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Referanslar_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVmZXJhbnNsYXJfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/RehberListesi_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmVoYmVyTGlzdGVzaV9jb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Slider_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyX2NvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/SonRotalar_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU29uUm90YWxhcl9jb21wb25lbnRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/TotalRevenue/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVG90YWxSZXZlbnVlXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/YorumListesi_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcWW9ydW1MaXN0ZXNpX2NvbXBvbmVudFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/Özellik_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcw5Z6ZWxsaWtfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Components/İstatistik_component/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcxLBzdGF0aXN0aWtfY29tcG9uZW50XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_KullanıcıLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9LdWxsYW7EsWPEsUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_ÜyeLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF/DnHllTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Sifreİslemleri/SifremiUnuttum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lmcmXEsHNsZW1sZXJpXFNpZnJlbWlVbnV0dHVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Sifreİslemleri/YeniSifreGir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lmcmXEsHNsZW1sZXJpXFllbmlTaWZyZUdpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Yorumlar/YorumEkle.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9ydW1sYXJcWW9ydW1Fa2xlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/ÜyelerLayoutPartial/_FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5x5ZWxlckxheW91dFBhcnRpYWxcX0Zvb3RlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/ÜyelerLayoutPartial/_HeaderPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5x5ZWxlckxheW91dFBhcnRpYWxcX0hlYWRlclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/ÜyelerLayoutPartial/_NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5x5ZWxlckxheW91dFBhcnRpYWxcX05hdmJhclBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/ÜyelerLayoutPartial/_NavbarPartial1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5x5ZWxlckxheW91dFBhcnRpYWxcX05hdmJhclBhcnRpYWwxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/ÜyelerLayoutPartial/_RightbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncw5x5ZWxlckxheW91dFBhcnRpYWxcX1JpZ2h0YmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/İletişim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcxLBsZXRpxZ9pbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/malta/Desktop/Asp.Net Core/GeziRehberim/GeziRehberim/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f0mwunum4a
